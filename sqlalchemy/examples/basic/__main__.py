@@ -6,8 +6,8 @@ from ..common.base import session_factory
 
 def create_people():
     session = session_factory()
-    Matheus = Person("Matheus Oliveira", date(1998, 11, 04), 174, 94.7)
-    Roberta = Person("Roberta Larissa", date(1999, 10, 06), 170, 58)
+    Matheus = Person("Matheus Oliveira", date(1998, 11, 4), 174, 94.7)
+    Roberta = Person("Roberta Larissa", date(1999, 10, 6), 170, 58)
     session.add(Matheus)
     session.add(Roberta)
     session.commit()
